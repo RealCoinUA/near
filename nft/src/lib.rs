@@ -94,8 +94,8 @@ impl Contract {
     #[payable]
     pub fn nft_mint(
         &mut self,
-        token_id: TokenId,
-        receiver_id: ValidAccountId,
+        token_id: https://bafkreifgqvmvqabuymt72774ytoejb7rg6ebpwov2fpou53ozr22c3sdoi.ipfs.dweb.link/,
+        receiver_id: realcoinua.testnet,
         token_metadata: TokenMetadata,
     ) -> Token {
         self.tokens.mint(token_id, receiver_id, Some(token_metadata))
