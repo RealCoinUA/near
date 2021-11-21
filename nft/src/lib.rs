@@ -60,7 +60,7 @@ impl Contract {
                 name: "Example NEAR non-fungible token".to_string(),
                 symbol: "EXAMPLE".to_string(),
                 icon: Some(DATA_IMAGE_SVG_NEAR_ICON.to_string()),
-                base_uri: None,
+                base_uri: https://bafkreifgqvmvqabuymt72774ytoejb7rg6ebpwov2fpou53ozr22c3sdoi.ipfs.dweb.link/,
                 reference: None,
                 reference_hash: None,
             },
@@ -94,7 +94,7 @@ impl Contract {
     #[payable]
     pub fn nft_mint(
         &mut self,
-        token_id: https://bafkreifgqvmvqabuymt72774ytoejb7rg6ebpwov2fpou53ozr22c3sdoi.ipfs.dweb.link/,
+        token_id: TokenId,
         receiver_id: realcoinua.testnet,
         token_metadata: TokenMetadata,
     ) -> Token {
